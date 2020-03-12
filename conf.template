@@ -1,0 +1,22 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extentions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = GB
+ST = West Yorkshire
+L = Leeds
+O = NHS Digital
+OU = API Management
+CN = {nhs_domain}
+emailAddress = api.management@nhs.net
+
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = {nhs_domain}
+DNS.2 = {apigee_domain}

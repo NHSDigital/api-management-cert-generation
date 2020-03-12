@@ -1,0 +1,10 @@
+internal-qa-sandbox.api.service.nhs.uk,nhsd-nonprod-internal-qa-sandbox.apigee.net
+internal-dev.api.service.nhs.uk,nhsd-nonprod-internal-dev.apigee.net
+internal-qa.api.service.nhs.uk,nhsd-nonprod-internal-qa.apigee.net
+ref.api.service.nhs.uk,nhsd-nonprod-ref.apigee.net
+sandbox.api.service.nhs.uk,nhsd-prod-sandbox.apigee.net
+dev.api.service.nhs.uk,nhsd-prod-dev.apigee.net
+int.api.service.nhs.uk,nhsd-prod-int.apigee.net
+api.service.nhs.uk,nhsd-prod-prod.apigee.net
+internal-portal.developer.nhs.uk,nhsd-nonprod-developerportal.apigee.io
+portal.developer.nhs.uk,nhsd-prod-developerportal.apigee.io
