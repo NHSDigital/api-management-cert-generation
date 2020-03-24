@@ -1,8 +1,5 @@
-confs/
 keys/
 csrs/
 
-*.py[cd]
-*.conf
 *.key
 *.csr
